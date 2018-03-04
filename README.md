@@ -1,7 +1,7 @@
 # TinyURL Project
 <p align="center">
 <a href = "https://github.com/yilmazvolkan/tinyurl/projects"><img 
-<img src="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/tinyURL_logo.png" width="320" height="160"></a>
+<img src="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/tinyURL_logo.png" width="340" height="160"></a>
 </p>
 
 <p align="center">
