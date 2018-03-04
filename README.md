@@ -1,7 +1,7 @@
 # TinyURL Project
 <p align="center">
 <a href = "https://github.com/yilmazvolkan/tinyurl/projects"><img 
-<img src="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/tinyURL_logo.png" width="300" height="160"></a>
+<img src="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/tinyURL_logo.png" width="320" height="160"></a>
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
              alt="Description">
     </a>
     <a href="https://github.com/bounswe/bounswe2018group1/issues">
-        <img src="https://img.shields.io/badge/ISSUES 3-CLOSED-8de9e9.svg"
+        <img src="https://img.shields.io/badge/ISSUES 4-CLOSED-8de9e9.svg"
              alt="Issues">
     </a>
 </p>
