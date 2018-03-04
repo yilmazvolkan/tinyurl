@@ -22,6 +22,7 @@
   This is a companion problem to the System Design. TinyURL is a URL shortening service where you enter a URL such as https://github.com/yilmazvolkan/tinyurl/tree/master/Res  and it returns a short URL such as http://tinyurl.com/4e9iAk. It is also called friendly URL.
 
   A friendly URL (Uniform Resource Locator) may be desired for messaging technologies that limit the number of characters in a message (for example SMS, Twitter), for reducing the amount of typing required if the reader is copying a URL from a print source, for making it easier for a person to remember, or for the intention of a permalink (unchanged for many years). In Twitter, this service is supplied automatically, it shortens links using its own URL shortening service.
+  
 Other uses of URL shortening are to "beautify" a link, track clicks, or hide the underlying address. Although hiding of the underlying address may be desired for legitimate business or personal reasons, it is open to abuse. Some URL shortening service providers have found themselves on spam blacklists, because of the use of their redirect services by sites trying to bypass those very same blacklists. Some websites prevent short, redirected URLs from being posted.
 
 
