@@ -1,4 +1,4 @@
-class TinyURL:
+class tinyURL:
     alphabet = string.ascii_letters + '0123456789'
     def __init__(self):
         self.url2code = {}
