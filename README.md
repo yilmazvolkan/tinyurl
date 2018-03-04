@@ -9,8 +9,16 @@
         <img src="https://img.shields.io/badge/DESCRIPTION-ONLINE-46dbdb.svg"
              alt="Description">
     </a>
+    <a href="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/TinyURL.java">
+        <img src="https://img.shields.io/badge/Java-ONLINE-71e4e4.svg"
+             alt="Java">
+    </a>
     <a href="https://github.com/bounswe/bounswe2018group1/issues">
-        <img src="https://img.shields.io/badge/ISSUES 4-CLOSED-8de9e9.svg"
+        <img src="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/tinyURL.py.svg"
+             alt="Python">
+    </a>
+    <a href="https://github.com/bounswe/bounswe2018group1/issues">
+        <img src="https://img.shields.io/badge/ISSUES 4-CLOSED-b8f1f1.svg"
              alt="Issues">
     </a>
 </p>
