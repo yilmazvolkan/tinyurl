@@ -6,19 +6,19 @@
 
 <p align="center">
     <a href="https://github.com/yilmazvolkan/tinyurl/blob/master/README.md">
-        <img src="https://img.shields.io/badge/DESCRIPTION-ONLINE-46dbdb.svg"
+        <img src="https://img.shields.io/badge/DESCRIPTION-ONLINE-9becec.svg"
              alt="Description">
     </a>
     <a href="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/TinyURL.java">
-        <img src="https://img.shields.io/badge/Java-ONLINE-71e4e4.svg"
+        <img src="https://img.shields.io/badge/Java-ONLINE-7fe6e6.svg"
              alt="Java">
     </a>
-    <a href="https://github.com/bounswe/bounswe2018group1/issues">
-        <img src="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/tinyURL.py.svg"
+    <a href="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/tinyURL.py.svg">
+        <img src="https://img.shields.io/badge/Python-ONLINE-62e1e1.svg"
              alt="Python">
     </a>
     <a href="https://github.com/bounswe/bounswe2018group1/issues">
-        <img src="https://img.shields.io/badge/ISSUES 4-CLOSED-b8f1f1.svg"
+        <img src="https://img.shields.io/badge/ISSUES 4-CLOSED-46dbdb.svg"
              alt="Issues">
     </a>
 </p>
