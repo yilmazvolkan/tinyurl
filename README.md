@@ -31,7 +31,7 @@ Other uses of URL shortening are to "beautify" a link, track clicks, or hide the
 The answer depends on how many character will be used. With 26 low-case + 26 upper case letters + 10 digits (the choice of reasonable sites), using one character gives you 62 positions (i.e. 62 shortened URLs), then each additional char multiplies the position number by 62. For example, in our case, if you use 6 character you can have 62 over 6 different urls. It satisfies for every person on earth can take 7 different URLs.
 
 * **Should the identifier be increment or not? Which is easier to design? Pros and cons?**
-Actually, for Google URL shortener it seems to enough. Few people are creating short URLs, and each person creates few URLs. Original URLs are enough in most cases. Moreover, using random string as IDs may sacrifice performance a little bit. More specifically, when you already have millions of records, insertion can be costly. Since IDs are not sequential, so every time a new record is inserted, the database needs to go look at the correct page for this ID. However, when using incremental IDs, insertion can be much easier 
+Actually, for Google URL shortener it seems to enough. Few people are creating short URLs, and each person creates few URLs. Original URLs are enough in most cases. Moreover, using random string as IDs may sacrifice performance a little bit. More specifically, when you already have millions of records, insertion can be costly. Since IDs are not sequential, so every time a new record is inserted, the database needs to go look at the correct page for this ID. However, when using incremental IDs, insertion can be much easier. 
 
 * **How should we design the database in order to store above a million URLs?**
 If you want to store a huge amount of key-value pairs across multiple instances, you need to design a look up algorithm that allows you to find the corresponding machine for a given look up key. For example, if the incoming short alias is http://tinyurl.com/abcd123, based on key “abcd123” the system should know which machine stores the database that contains entry for this key. This is exactly the same idea of database sharding where each shard is held on a separate database server instance, to spread load. Problems are; replication, resharding, and concurrency.
@@ -49,8 +49,3 @@ If you want to store a huge amount of key-value pairs across multiple instances,
 <a href = "https://github.com/yilmazvolkan"><img 
 <img src="https://avatars2.githubusercontent.com/u/28186366?s=400&v=4" width="120" height="120"></a>
 </p>
-[Volkan Yılmaz](https://github.com/yilmazvolkan)
-
-
-
-
