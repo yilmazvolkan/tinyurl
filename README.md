@@ -13,7 +13,7 @@
         <img src="https://img.shields.io/badge/Java-ONLINE-7fe6e6.svg"
              alt="Java">
     </a>
-    <a href="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/tinyURL.py.svg">
+    <a href="https://github.com/yilmazvolkan/tinyurl/blob/master/Res/tinyURL.py">
         <img src="https://img.shields.io/badge/Python-ONLINE-62e1e1.svg"
              alt="Python">
     </a>
