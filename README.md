@@ -17,7 +17,7 @@
         <img src="https://img.shields.io/badge/Python-ONLINE-62e1e1.svg"
              alt="Python">
     </a>
-    <a href="https://github.com/bounswe/bounswe2018group1/issues">
+    <a href="https://github.com/yilmazvolkan/tinyurl/issues?q=is%3Aissue+is%3Aclosed">
         <img src="https://img.shields.io/badge/ISSUES 4-CLOSED-46dbdb.svg"
              alt="Issues">
     </a>
