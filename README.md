@@ -44,7 +44,7 @@ Other uses of URL shortening are to "beautify" a link, track clicks, or hide the
 
   Actually, for Google URL shortener it seems to enough. Few people are creating short URLs, and each person creates few URLs. Original URLs are enough in most cases. Moreover, using random string as IDs may sacrifice performance a little bit. More specifically, when you already have millions of records, insertion can be costly. Since IDs are not sequential, so every time a new record is inserted, the database needs to go look at the correct page for this ID. However, when using incremental IDs, insertion can be much easier. 
 
-* **How should we design the database in order to store above a million URLs?**
+* **How should we design the database in order to store more than a million URLs?**
 
   If you want to store a huge amount of key-value pairs across multiple instances, you need to design a look up algorithm that allows you to find the corresponding machine for a given look up key. For example, if the incoming short alias is http://tinyurl.com/abcd123, based on key “abcd123” the system should know which machine stores the database that contains entry for this key. This is exactly the same idea of database sharding where each shard is held on a separate database server instance, to spread load. Problems are; replication, resharding, and concurrency.
 
